@@ -1,6 +1,6 @@
 function decimalToBinary(num) {
   //Write you code here
-	let output="";
+	let num=13, output="";
 	while(num>=2){
 		let remainder=num%2;
 		output=remainder+output;
